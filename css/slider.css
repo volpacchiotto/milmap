@@ -1,0 +1,36 @@
+#rail {
+    background-color: #ddd;
+    border: 1px #555 solid;
+    box-sizing: border-box;
+    height: 10px;
+    margin: auto;
+    cursor: pointer;
+    text-align: left;
+}
+#slider {
+    background-color: rgba(102, 102, 102, 50%);
+    border: 1px solid #333;
+    box-sizing: border-box;
+    height: 14px;
+    width: 2px;/*default*/
+    position: relative;
+    top: -3px;/*rail height - slider height*/
+    cursor: pointer;
+}
+#rail-with-buttons {
+    text-align: center;
+}
+#rail-with-buttons p, #rail-with-buttons div {
+    display: inline-block;
+}
+#rail-with-buttons p {
+    top: -5px;
+    position: relative;
+    font-size: .8em;
+}
+#rail-with-buttons p.button {
+    margin: 0 1px;
+    color: #59d;
+    cursor: pointer;
+    font-size: 14px;
+}
